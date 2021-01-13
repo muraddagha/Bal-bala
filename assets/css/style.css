@@ -169,6 +169,11 @@
   font-weight: bold;
 }
 
+.modal-openn {
+  overflow-y: hidden;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 992px) {
   .navbar .navbar-toggle {
     display: block;
