@@ -176,6 +176,11 @@
   margin-top: 1.5rem;
 }
 
+.pt-mt-mix {
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+}
+
 .text-bold {
   font-weight: bold;
 }
@@ -221,6 +226,10 @@
   }
   .mt-mine {
     margin-top: 11px;
+  }
+  .pt-mt-mix {
+    margin-top: 5px;
+    padding-top: 0;
   }
 }
 
