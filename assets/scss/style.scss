@@ -41,7 +41,6 @@ $bacground: #f6f6f6;
   }
 }
 .toggle-menu {
-  display: none;
   position: fixed;
   bottom: 0;
   top: 74px;
@@ -51,8 +50,11 @@ $bacground: #f6f6f6;
   background: white;
   flex-direction: column;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.8s;
   height: calc(100% - 74px);
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
 
   .items-toggle {
     font-size: 24px;
@@ -167,7 +169,8 @@ $bacground: #f6f6f6;
   }
   .active {
     display: flex;
-    width: 100%;
+    // width: 100%;
+    transform: scale(1);
   }
   .order-primary {
     order: 1;
