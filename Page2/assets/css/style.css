@@ -319,6 +319,7 @@
 
 .contact-main .contact-content .contact-body {
   margin-left: 2rem;
+  margin-bottom: 5px;
 }
 
 .contact-main .contact-content:first-child::before {
