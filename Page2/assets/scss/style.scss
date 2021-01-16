@@ -21,6 +21,10 @@ $bacground: #f6f6f6;
       list-style: none;
       .droppdown {
         position: relative;
+        &:hover i {
+          transform: rotate(-180deg);
+          transition: 0.3s;
+        }
 
         .droppdown-content {
           width: 200px;
@@ -85,6 +89,8 @@ $bacground: #f6f6f6;
         i {
           margin-left: 5px;
           font-size: 14px;
+          transform: rotate(0deg);
+          transition: 0.3s;
         }
       }
     }
